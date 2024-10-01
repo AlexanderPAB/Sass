@@ -1,0 +1,79 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+}
+
+.header {
+  background-color: #007bff;
+  color: #ffffff;
+  padding: 2rem;
+  text-align: center;
+}
+.header h1 {
+  font-size: 2.5rem;
+}
+.header p {
+  font-size: 1.2rem;
+}
+
+.main-content {
+  padding: 2rem;
+}
+.main-content section {
+  margin-bottom: 2rem;
+}
+.main-content .textinfo h2 {
+  color: #007bff;
+  margin-bottom: 15px;
+}
+.main-content .textinfo p {
+  color: #212529;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+.main-content .images-section img {
+  max-width: 100%;
+  height: auto;
+  border: 5px solid #007bff;
+}
+.main-content .cards-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.main-content .cards-container .card {
+  margin: 10px;
+  width: calc(25% - 20px);
+}
+.main-content .cards-container .card .card-img-top {
+  max-width: 100%;
+  height: auto;
+  border: 5px solid #007bff;
+}
+.main-content .cards-container .card .card-body h5 {
+  color: #007bff;
+}
+.main-content .cards-container .card .card-body p {
+  color: #212529;
+}
+.main-content .video-section {
+  text-align: center;
+  margin: 20px 0;
+}
+.main-content .video-section iframe {
+  max-width: 100%;
+  border: 2px solid #007bff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+}
+
+footer {
+  background-color: #007bff;
+  color: #ffffff;
+  text-align: center;
+  padding: 1rem;
+}
+
+/*# sourceMappingURL=styles.css.map */
